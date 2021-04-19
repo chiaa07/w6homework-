@@ -1,0 +1,244 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+
+
+.navbar-brand img {
+	height: 70px;
+	border-radius: 60%;
+	
+}
+
+@media (min-width: 768px) {
+
+
+/*nav選單*/
+	.navbar{
+		background-color: red ;
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+
+
+
+.banner {
+
+	
+}
+
+.carousel-item
+{
+	height: 600px;
+
+}
+.banner .container-fluid {
+	padding:0!important;
+	
+}
+
+
+.about {
+	padding:40px 0;
+	background-color:#cbcab8;
+
+}
+
+.about img {
+	overflow:hidden;
+	box-shadow:2px 2px 4px gray;
+	border-radius: 60%;
+	transform:scale(1,1);transition: all 0.5s ease-out;
+	}
+
+.about img:hover{
+	transform:scale(1.2,1.2);
+	}
+
+
+
+.title {
+	margin: 0;
+	font-weight: bold;
+	font-size: 2em;
+	font-size: 2vw;
+	
+
+}
+
+.title_line {
+	border: 2px solid black;
+	width:200px;
+	
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 20px;
+
+}
+
+.story span {
+	font-style: italic;
+	font-size: 25px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+
+
+
+/*skill*/
+
+ 
+.works {
+	background-color: white;
+		padding-bottom:70px;
+		text-align: center;
+		padding-top: 40px;
+
+}
+
+.works .card1 {
+	background-color: white;
+	padding: 5px
+	margin-bottom: 10px;
+	margin-left: 20px;
+	
+}
+
+.works h4 {
+	text-align: center;
+	font-family:bold;
+}
+
+
+.skillcontent
+{
+	margin-top: 20px;
+	  line-height: 5px;　
+}
+
+/*work*/
+.product {
+	background-color: #cbcab8;
+	padding-bottom:70px;
+	padding-top: 40px;
+	
+}
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+}
+
+
+
+.works img {
+	width:50%;
+	margin-bottom:20px;
+}
+
+
+
+/*聯絡*/
+.contact {
+	height:750px;
+	padding-top: 40px;
+	background-image: url(../img/p4.JPG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+
+
+
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #ABD0CE;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+
+/*footer*/
+footer {
+	background-color: #cbcab8;
+	padding:20px 0; 
+}
+
+footer p {
+	line-height: 39px;
+}
+
+
+
