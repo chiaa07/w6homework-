@@ -21,7 +21,7 @@ p {
 	
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) (min-height:150px) { 
 
 
 /*nav選單*/
@@ -35,18 +35,25 @@ p {
 
 
 
-.banner {
+.banner 
+	.banner {
+	margin-top: 76px;
+	
+
+}
 
 	
-}
 
 .carousel-item
 {
-	height: 600px;
+max-height:650px;
+
 
 }
+
 .banner .container-fluid {
 	padding:0!important;
+
 	
 }
 
